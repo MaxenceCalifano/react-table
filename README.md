@@ -27,7 +27,7 @@ The component needs two props:
 |   Props                       |  Types                            | Required             | Default        | Description                               |
 |   --------------------------  |  -------------------------------  | --------------------:| -------------: | -----------------------------------------:|
 | intialData                     |  Array                   | ✅                   |                | An array of object, each object will be a row and its values will be columns |
-| columns                         | Array []        |                      |                |An array of object corresponding with the value in initial data |
+| columns                         | Array []        |          ✅            |                |An array of object corresponding with the value in initial data |
 
 ```jsx
 import { Table } from "react-table-mc"
