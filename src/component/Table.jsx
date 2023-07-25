@@ -50,7 +50,7 @@ function Table({ initialData, columns }) {
     return (<>
 
         {
-            data ?
+            initialData && initialData.length !== 0 ?
                 <>
                     <div className={styles.searchAndDataLength}>
                         {/* Select number of entries*/}
@@ -126,7 +126,7 @@ function Table({ initialData, columns }) {
                         }
                     </div>
                 </>
-                : <></>
+                : <p style={{ textAlign: 'center' }}>No data available in table</p>
         }
     </>);
 }
