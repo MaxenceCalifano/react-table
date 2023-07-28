@@ -20,6 +20,8 @@ To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com)
     $ npm install react-table-mc
     $ yarn add react-table-mc
 
+The package is built with Node v16.15.1 and NPM v8.4.1
+
 ### Usage
 
 The component needs two props: 
